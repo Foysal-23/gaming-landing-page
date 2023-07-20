@@ -1,0 +1,67 @@
+/* work sans font from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+ padding: 30px 150px;
+}
+ .logo{
+  display: flex;
+  align-items: center;
+ 
+ }
+ .logo-icon{
+  width: 45px;
+  height: 20px;
+  padding-left:10px ;
+  padding-right: 10px;
+  cursor: pointer;
+ }
+ .logo-tytle{
+  font-size: 30px;
+  cursor: pointer;
+
+ }
+ span{
+  color: #ff42a5;
+ }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+list-style: none;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.navbar ul li a {
+ text-decoration: none;
+ color: black;
+ font-weight: 700;
+ transition: .3s ease-in-out;
+  }
+
+  .navbar ul li a:hover{
+    color:  #ff42a5;
+  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icon{
+  width: 25px;
+}
