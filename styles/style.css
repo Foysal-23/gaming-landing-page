@@ -10,6 +10,7 @@
 
 header {
   padding: 30px 150px;
+
 }
 
 .logo {
@@ -42,6 +43,7 @@ span {
   align-items: center;
 }
 
+ 
 .navbar ul {
   display: flex;
   justify-content: space-between;
@@ -103,7 +105,8 @@ nav {
 }
 
 .banner-description {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   color: #272727;
   margin-bottom: 40px;
 }
@@ -120,6 +123,45 @@ nav {
   margin: 0px;
   padding: 0px;
   font-size:82px;
+  font-weight: 800;
+  color: #ff42a5;
+}
+
+
+
+main{
+  padding: 30px 150px;
+}
+.main {
+  display: flex;
+  padding: 30px 10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.main-text-content{
+ text-align: right;
+}
+.main-description {
+  font-size: 16px;
+  color: #272727;
+  margin-bottom: 40px;
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.main-head-title {
+  margin: 0px;
+  padding: 0px;
+  font-size:45px;
   font-weight: 800;
   color: #ff42a5;
 }
