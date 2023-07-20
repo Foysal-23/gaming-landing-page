@@ -43,7 +43,7 @@ span {
   align-items: center;
 }
 
- 
+
 .navbar ul {
   display: flex;
   justify-content: space-between;
@@ -123,16 +123,17 @@ nav {
 .banner-head-title {
   margin: 0px;
   padding: 0px;
-  font-size:82px;
+  font-size: 82px;
   font-weight: 800;
   color: #ff42a5;
 }
 
 
 
-main{
+main {
   padding: 30px 150px;
 }
+
 .main {
   display: flex;
   padding: 30px 10px;
@@ -142,9 +143,10 @@ main{
 }
 
 
-.main-text-content{
- text-align: right;
+.main-text-content {
+  text-align: right;
 }
+
 .main-description {
   font-size: 16px;
   color: #272727;
@@ -162,75 +164,83 @@ main{
 .main-head-title {
   margin: 0px;
   padding: 0px;
-  font-size:45px;
+  font-size: 45px;
   font-weight: 800;
   color: #ff42a5;
 }
 
 
-.section-head-title{
+.section-head-title {
   display: flex;
 
 }
 
-.section-title{
+.section-title {
   text-align: center;
 }
-.section-img{
-  margin:20px 
+
+.section-img {
+  margin: 20px
 }
-.main-image{
-  width:280px;
+
+.main-image {
+  width: 280px;
 }
-.main-section-title{
+
+.main-section-title {
   font-size: 45px;
   margin: 0%;
 }
-.play-head-title{
+
+.play-head-title {
   text-align: right;
-  padding-left:150px ;
+  padding-left: 150px;
 }
-.play-title{
+
+.play-title {
   font-size: 45px;
 }
-.play-image{
+
+.play-image {
   margin-top: 50px;
 }
 
-.icon-section{
+.icon-section {
 
 
   display: flex;
   justify-content: center;
 }
 
-.icon-image{
+.icon-image {
   display: flex;
   justify-content: center;
   padding: 10px;
   margin: 10px;
-  border-radius:50px;
+  border-radius: 50px;
   transition: 0.3s ease-in-out;
 
 }
 
-.icon-section img{
+.icon-section img {
   width: 50px;
 }
-.icon-section p{
+
+.icon-section p {
   font-size: 16px;
-  padding-left:10px;
+  padding-left: 10px;
   font-weight: 700;
 
 }
 
-.icon-image:hover{
+.icon-image:hover {
   border: 2px solid #ff42a5;
   color: #ff42a5;
 
 }
-.game-section{
-margin: 50px;
+
+.game-section {
+  margin: 50px;
 }
 
 
@@ -246,7 +256,8 @@ margin: 50px;
   padding-bottom: 100px;
 
 }
-.footer-logo{
+
+.footer-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +278,8 @@ margin: 50px;
   width: 25px;
   padding: 10px;
 }
-.footer-link a{
+
+.footer-link a {
   text-decoration: none;
   color: #fffafa;
   padding: 20px;
@@ -275,18 +287,69 @@ margin: 50px;
   margin-bottom: 20px;
   font-size: 16px;
 }
+
 .footer-text {
-display: flex;
-align-items:center ;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer-text p{
-  padding:0px 20px;
+
+.footer-text p {
+  padding: 0px 20px;
   font-size: 14px;
   color: #6f6e6e;
 }
-.footer-end{
+
+.footer-end {
   font-size: 16px;
   color: #9d9b9b;
+}
+
+@media screen and (max-width:576px){
+  header {
+    padding: 20px;
+  }
+  nav,
+  .navbar,
+  .banner,
+  .main {
+    flex-direction: column;
+  }
+  
+}
 
 
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
