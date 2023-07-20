@@ -186,9 +186,16 @@ main{
   font-size: 45px;
   margin: 0%;
 }
-
-
-
+.play-head-title{
+  text-align: right;
+  padding-left:150px ;
+}
+.play-title{
+  font-size: 45px;
+}
+.play-image{
+  margin-top: 50px;
+}
 
 
 
